@@ -1,0 +1,338 @@
+body{
+    font-family: "Segoe UI Bold"
+}
+
+.carousel-inner{
+    height: 700px
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    width: 100%;
+    height: 700px
+}
+.carousel-control{
+    width: 100px;
+    height: 80px;
+    top: 45%
+}
+.navbar-nav>li>.dropdown-menu{
+    border: 3px solid #0B2A53;
+    box-shadow:  7px 7px 12px #6b6c71
+}
+
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    background-color: ;
+}
+
+.carousel-indicators .active{
+    height: 15px;
+    width: 15px;
+    background-color: #00009f
+}
+.navbar{
+    min-height: 75px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom right, #6b6c71, #0B2A53)
+}
+
+.container-fluid{
+    padding-left: 140px;
+   
+}
+.navbar-default .navbar-brand {
+    font-size: 24px;
+    font-family: tahoma;
+    color: white;
+    overflow: hidden;
+    
+
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+    transform: scaleX(1.051);
+    transition-duration: .6s
+}
+.navbar-brand{
+    background-image: linear-gradient(to bottom right, #bcbcbc, #0B2A53);
+    border-radius: 9px;
+    padding:36px 21px;
+    line-height: 1px;
+}
+.nav>li>a{
+    padding-bottom: 36px;
+    font-size: 20px;
+    background-color: inherit;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+        color: white;
+        margin-left: 50px;
+        margin-top: 8px;
+        border-radius: 10px;
+        
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #ECECEC;
+    direction: ltr;
+    transform: scaleX(1.1);
+    transition: .6s
+}
+
+..navbar-toggle{
+    margin-top: 15px;
+}
+
+.dropdown-menu{
+    min-width: 830px;
+    overflow: hidden;
+}
+
+.dropdown-menu>li>a{
+    max-width: 50%;
+    font-size: 21px;
+    font-weight: 600;
+    opacity: 1
+ 
+
+}
+.dropdown-menu>li>a:hover{
+    opacity: 1;
+    transform: scaleX(1.05);
+    transition: .8s;
+    color: #00009f
+}
+
+.category-drop{
+   position: absolute;
+    left: 50%;
+    list-style: none;
+    bottom: 1%
+}
+
+.category-drop li {
+    
+    padding-right: 220px;
+    font-size: 17px;
+    max-width: 100%;
+}
+.category-drop li a:hover{
+    text-decoration: none;
+    
+}
+
+.dropdown-menu>li>a {
+    line-height: 5.4;
+    padding-right: 50%;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center center;
+    
+}
+
+
+
+.nav > li > a{
+    position: relative;
+}
+
+.nav navbar-nav navbar-right{
+    padding:10px
+}
+
+{
+    margin-right: 20px;
+}
+.fa{
+    
+    position: absolute;
+    right:500px;
+    
+}
+li .s:hover{
+    background-color: red;
+}
+
+.fa fa-heart{
+    position: absolute;
+    left: 20px
+}
+
+@media(max-width:1572.500px){
+    #sasa{display: none}
+}
+@media(max-width:730px){
+    #small:hover{transform:scaleX(.8)}
+}
+
+.carousel-caption {
+padding-bottom: 240px;
+    
+    
+
+}
+.mycaption2{
+        
+        color: #00357e;
+        background-color: #cecece;
+        padding: 10px;
+         box-shadow: 7px 7px 9px black;
+    border-radius: 122px;
+    opacity: .6;
+    max-width: 75%;
+    margin-left: 13%
+    
+    
+}
+
+.mycaption2:hover{
+    opacity: 1;
+    transition: .6s all ease-in-out;
+    transform: scale(1.05,1.05)
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom right, #6b6c71, #0B2A53);
+  border-radius: 10%;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+    height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 38%
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.living1{
+    background-color: blue;
+}
+
+.bigone{
+    height: 400px;
+    margin-right: 50px;
+    position: relative;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.living{
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/12.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+     opacity: 1;
+    transition-duration: 1s
+    
+}
+.living:hover .button2{
+    display: block;
+    transition: 1s;
+    
+    
+}
+.living:hover{
+    transition-duration: all 1s ;
+    transform: scale(1.09,1.07);
+    opacity: .9
+}
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom right, #6b6c71, #0B2A53);
+  border-radius: 10%;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+    height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+    position: absolute;
+    top: 42%;
+    right: 30%;
+    display: none;
+    transition-duration: 1s
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+    
+
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.ph{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    color: darkblue;
+    font-size: 28px;
+    text-align: center;
+    top: 90%;
+}
+
+.categoriespart{
+    text-align: center;
+    background-color: blue
+}
